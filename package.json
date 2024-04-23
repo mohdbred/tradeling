@@ -1,0 +1,30 @@
+{
+  "name": "task_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "consumer": "node ./kafka/consumer.js",
+    "producer": "node ./kafka/producer.js",
+    "build": "webpack --config webpack.config.js --progress",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kafkajs/confluent-schema-registry": "^3.3.0",
+    "dotenv": "^16.4.5",
+    "elasticsearch": "^16.7.3",
+    "express": "^4.19.2",
+    "express-http-context": "^1.2.4",
+    "express-rate-limit": "^7.2.0",
+    "express-validator": "^7.0.1",
+    "file-loader": "^5.1.0",
+    "http-status": "^1.7.4",
+    "jest": "^25.1.0",
+    "kafka-node": "^5.0.0",
+    "kafkajs": "^2.2.4",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
