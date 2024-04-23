@@ -1,7 +1,7 @@
-# Product Index System with Go and Kafka
+# Product Index System with Nodejs and Kafka
 
 ## Overview
-This project involves building a backend service in Go that integrates with Apache Kafka for data flow management and Elasticsearch for data indexing. 
+This project involves building a backend service in Nodejs that integrates with Apache Kafka for data flow management and Elasticsearch for data indexing. 
 The primary feature of this service is an autocomplete search endpoint that enhances user experience in searching product data.
 
 ## Requirements
